@@ -1,18 +1,26 @@
 ﻿l_english:
   
   #####################Idea栏标题#####################
-  ## 陆军及通用装备
+  ## 陆军及通用装备栏
   EndAddEq_Infantry_Idea:0 "陆军及通用装备"
   EndAddEq_Tank_Idea:0 "坦克"
   EndAddEq_Air_Idea:0 "空军装备"
+
+  ## 坦克栏
   
-  #====================Idea组标题====================#
-  #  
+
+  ## 空军栏
+  
+  #####################Idea组标题#####################
+  # 陆军及通用装备
   eaeq_common_ideas:0 "添加通用装备"
   eaeq_infantry_ideas:0 "添加步兵装备"
 
   
+  # 坦克
   
+
+  # 空军
   
 
 
@@ -23,33 +31,26 @@
   # 口粮
   eaeq_common_rations:0 "添加口粮"
 
+  # 单车
+  eaeq_common_bicycle:0 "添加单车"
+
+  # 支援装备
+  eaeq_common_support:0 "添加支援装备"
+
+  # 运输船
+  eaeq_common_convoy:0 "添加运输船"
+
 
   #=================枪/牵引式火炮/运输船=================#
 
   #步兵装备(枪)
- 
- 
- 
-  #火炮及火箭炮
-
+  eaeq_infantry_1:0 "添加一级步兵装备"
+  eaeq_infantry_2:0 "添加二级步兵装备"
+  eaeq_infantry_3:0 "添加三级步兵装备"
+  eaeq_infantry_4:0 "添加四级步兵装备"
+  eaeq_infantry_5:0 "添加五级步兵装备"
   
-
-
-  #支援装备
   
-  #摩托化装备
-  
-  #机械化装备
-  
-
-  #防空及反坦
-  
-
-  #addeq_supp:0 "添加补给"
-
-
-  #运输船
-  endaddeq_convoy_1:0 "添加运输船"
   
   #===================坦克===================#
   
@@ -113,15 +114,41 @@
   endaddeq.event.common.b:0 "关闭"
   endaddeq.event.common.c:0 "上一页"
   endaddeq.event.common.d:0 "下一页"
+
+ #=====================通用=====================#
+ # 口粮
+ endaddeq.event.common.901001:0 "添加口粮"
+ endaddeq.event.common.901001.t:0 "添加口粮"
+ endaddeq.event.common.901001.d:0 "添加口粮"
+
+ endaddeq.event.common.901001.a:0 "添加1w口粮"
+ endaddeq.event.common.901001.b:0 "添加5w口粮"
+ endaddeq.event.common.901001.c:0 "添加10w口粮"
+
+ # 单车
+ endaddeq.event.common.901002:0 "添加单车"
+ endaddeq.event.common.901002.t:0 "添加单车"
+ endaddeq.event.common.901002.d:0 "添加单车"
+
+ endaddeq.event.common.901002.a:0 "添加5000单车"
+ endaddeq.event.common.901002.b:0 "添加1w单车"
+ endaddeq.event.common.901002.c:0 "添加5w单车"
+
+ # 支援装备
+ endaddeq.event.common.901003:0 "添加支援装备"
+ endaddeq.event.common.901003.t:0 "添加支援装备"
+ endaddeq.event.common.901003.d:0 "添加支援装备"
+
+ endaddeq.event.common.901003.a:0 "添加1w支援装备"
+ endaddeq.event.common.901003.b:0 "添加5w支援装备"
+ endaddeq.event.common.901003.c:0 "添加10w支援装备"
+
   
  #=====================陆军=====================#
 
   #-------------------步兵装备-------------------#
   #步兵装备数量
-  
 
-  #支援装备
-  
  
   #摩托化装备
   

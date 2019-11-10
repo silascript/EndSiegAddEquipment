@@ -6,12 +6,7 @@ idea_categories = {
 
 		# 通用装备
 		slot = eaeq_common_ideas
-
-		#slot =	eaeq_infantry_ARG	# 阿根廷
-		#slot =	eaeq_infantry_AST	# 土澳
-		#slot =	eaeq_infantry_AUS	# 奥地利
-		#slot =	eaeq_infantry_BEL	# 比利时
-		#slot =	eaeq_infantry_BUL	# 保加利亚		
+		slot = eaeq_infantry_ideas
 
 		cost = 0
 		removal_cost = 0

@@ -9,16 +9,87 @@ ideas = {
 			#picture = 
 
 			on_add = {
+				country_event = endaddeq.event.common.901001	
+			}
+		}
+
+		# 单车
+		eaeq_common_bicycle = {
+			on_add = {
+				country_event = endaddeq.event.common.901002
+			}
+		}
+
+
+		# 支援装备
+		eaeq_common_support = {
+			on_add = {
+				country_event = endaddeq.event.common.901003	
+			}
+		}
+
+		# 运输船
+		eaeq_common_convoy = {
+			on_add = {
 				#country_event = 	
 			}
 		}
 
 
-
-	} # EndsiegAddEq_commons_ideas
-
+	} # eaeq_common_ideas
 
 
+	# 步兵装备
+	eaeq_infantry_ideas = {
+
+		# 早期步兵装备
+		# early_infantry_equipment_ (0~4)
+		eaeq_early_infantry_1
+
+
+		# infantry_equipment_ (0~5)
+
+		# 一级步兵装备
+		eaeq_infantry_1 = {
+			on_add = {
+				#country_event = 	
+			}
+		}
+
+
+		# 二级步兵装备
+		eaeq_infantry_2 = {
+			on_add = {
+				#country_event = 	
+			}
+		}
+
+
+		# 三级步兵装备
+		eaeq_infantry_3 = {
+			on_add = {
+				#country_event = 	
+			}
+		}
+
+
+		# 四级步兵装备
+		eaeq_infantry_4 = {
+			on_add = {
+				#country_event = 	
+			}
+		}
+
+
+		# 五级步兵装备
+		eaeq_infantry_5 = {
+			on_add = {
+				#country_event = 	
+			}
+		}
+
+
+	} # eaeq_infantry_ideas
 
 
 }

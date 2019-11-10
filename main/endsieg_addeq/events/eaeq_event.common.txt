@@ -1,0 +1,170 @@
+add_namespace = endaddeq.event.common
+
+# 口粮
+country_event = {
+	id = endaddeq.event.common.901001 
+	title = endaddeq.event.common.901001.t
+	desc = endaddeq.event.common.901001.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_rations 
+		}
+	}
+
+	# 添加1W口粮
+	option = {
+		name = endaddeq.event.common.901001.a
+
+		add_equipment_to_stockpile = {
+			type =  rations_1
+			amount = 10000
+		}
+	}
+
+	# 添加5W口粮
+	option = {
+		name = endaddeq.event.common.901001.b
+
+		add_equipment_to_stockpile = {
+			type =  rations_1
+			amount = 50000
+		}
+	}
+
+	# 添加10W口粮
+	option = {
+		name = endaddeq.event.common.901001.c
+
+		add_equipment_to_stockpile = {
+			type =  rations_1
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 口粮
+
+# 单车
+country_event = {
+	id = endaddeq.event.common.901002 
+	title = endaddeq.event.common.901002.t
+	desc = endaddeq.event.common.901002.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_bicycle 
+		}
+	}
+
+	# 添加5000口粮
+	option = {
+		name = endaddeq.event.common.901002.a
+
+		add_equipment_to_stockpile = {
+			type =  bicycle_equipment_1
+			amount = 5000
+		}
+	}
+
+	# 添加1W单车
+	option = {
+		name = endaddeq.event.common.901002.b
+
+		add_equipment_to_stockpile = {
+			type =  bicycle_equipment_1
+			amount = 10000
+		}
+	}
+
+	# 添加5W单车
+	option = {
+		name = endaddeq.event.common.901002.c
+
+		add_equipment_to_stockpile = {
+			type =  bicycle_equipment_1
+			amount = 50000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 单车
+
+
+# 支援装备
+country_event = {
+	
+	id = endaddeq.event.common.901003
+	title = endaddeq.event.common.901003.t
+	desc = endaddeq.event.common.901003.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_support 
+		}
+	}
+
+	# 添加1W支援装备
+	option = {
+		name = endaddeq.event.common.901003.a
+		add_equipment_to_stockpile = {
+			type= support_equipment_1
+			amount= 10000
+		}
+	}
+
+	# 添加5W支援装备
+	option = {
+		name = endaddeq.event.common.901003.b
+		add_equipment_to_stockpile = {
+			type= support_equipment_1
+			amount= 50000
+		}
+	}
+
+	# 添加10W支援装备
+	option = {
+		name = endaddeq.event.common.901003.c
+		add_equipment_to_stockpile = {
+			type= support_equipment_1
+			amount= 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+
+} # 支援装备
+
+
+# 运输船
+
