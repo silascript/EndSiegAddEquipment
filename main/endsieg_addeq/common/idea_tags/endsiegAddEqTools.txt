@@ -1,0 +1,37 @@
+idea_categories = {
+	
+	# Idae栏
+	# 步兵装备
+	EndAddEq_Infantry_Idea = {
+
+		# 通用装备
+		slot = eaeq_common_ideas
+
+		#slot =	eaeq_infantry_ARG	# 阿根廷
+		#slot =	eaeq_infantry_AST	# 土澳
+		#slot =	eaeq_infantry_AUS	# 奥地利
+		#slot =	eaeq_infantry_BEL	# 比利时
+		#slot =	eaeq_infantry_BUL	# 保加利亚		
+
+		cost = 0
+		removal_cost = 0
+
+	} # EndAddEq_Infantry_Idea
+
+
+	# 坦克
+	EndAddEq_Tank_Idea = {
+
+		cost = 0
+		removal_cost = 0
+	}
+
+	# 空军
+	EndAddEq_Air_Idea = {
+
+		cost = 0
+		removal_cost = 0
+	}
+
+
+} # idea_categories

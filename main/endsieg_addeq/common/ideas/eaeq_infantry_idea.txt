@@ -1,0 +1,24 @@
+
+ideas = {
+	
+	# 通用装备
+	eaeq_common_ideas = {
+
+		# 口粮
+		eaeq_common_rations = {
+			#picture = 
+
+			on_add = {
+				#country_event = 	
+			}
+		}
+
+
+
+	} # EndsiegAddEq_commons_ideas
+
+
+
+
+
+}
