@@ -167,4 +167,56 @@ country_event = {
 
 
 # 运输船
+country_event = {
+	
+	id = endaddeq.event.common.901004
+	title = endaddeq.event.common.901004.t
+	desc = endaddeq.event.common.901004.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_convoy 
+		}
+	}
+
+	# 添加100运输船
+	option = {
+		name = endaddeq.event.common.901004.a
+		add_equipment_to_stockpile = {
+			type= convoy_1
+			amount= 100
+		}
+	}
+
+	# 添加500运输船
+	option = {
+		name = endaddeq.event.common.901004.b
+		add_equipment_to_stockpile = {
+			type= convoy_1
+			amount= 500
+		}
+	}
+
+	# 添加1000运输船
+	option = {
+		name = endaddeq.event.common.901004.c
+		add_equipment_to_stockpile = {
+			type= convoy_1 
+			amount= 1000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+
+} # 运输船
 

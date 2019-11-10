@@ -143,6 +143,15 @@
  endaddeq.event.common.901003.b:0 "添加5w支援装备"
  endaddeq.event.common.901003.c:0 "添加10w支援装备"
 
+ # 运输船
+ endaddeq.event.common.901004:0 "添加运输船"
+ endaddeq.event.common.901004.t:0 "添加运输船"
+ endaddeq.event.common.901004.d:0 "添加运输船"
+
+ endaddeq.event.common.901004.a:0 "添加100运输船"
+ endaddeq.event.common.901004.b:0 "添加500运输船"
+ endaddeq.event.common.901004.c:0 "添加1000运输船"
+
   
  #=====================陆军=====================#
 

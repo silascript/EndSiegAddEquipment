@@ -31,7 +31,7 @@ ideas = {
 		# 运输船
 		eaeq_common_convoy = {
 			on_add = {
-				#country_event = 	
+				country_event = endaddeq.event.common.901004	
 			}
 		}
 
