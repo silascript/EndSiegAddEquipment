@@ -40,6 +40,10 @@
   # 运输船
   eaeq_common_convoy:0 "添加运输船"
 
+  # 摩托化装备
+  eaeq_common_motorized:0 "添加摩托化装备"
+  
+
 
   #=================枪/牵引式火炮/运输船=================#
 
@@ -151,6 +155,15 @@
  endaddeq.event.common.901004.a:0 "添加100运输船"
  endaddeq.event.common.901004.b:0 "添加500运输船"
  endaddeq.event.common.901004.c:0 "添加1000运输船"
+
+ # 摩托化装备
+ endaddeq.event.common.901005:0 "添加摩托化装备"
+ endaddeq.event.common.901005.t:0 "添加摩托化装备"
+ endaddeq.event.common.901005.d:0 "添加摩托化装备。只能添加早期摩托化装备。"
+
+ endaddeq.event.common.901005.a:0 "添加1w摩托化装备"
+ endaddeq.event.common.901005.b:0 "添加5w摩托化装备"
+ endaddeq.event.common.901005.c:0 "添加10w摩托化装备"
 
   
  #=====================陆军=====================#

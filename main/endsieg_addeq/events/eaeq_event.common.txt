@@ -220,3 +220,57 @@ country_event = {
 
 } # 运输船
 
+# 摩托化装备
+country_event = {
+	id = endaddeq.event.common.901005
+	title = endaddeq.event.common.901005.t
+	desc = endaddeq.event.common.901005.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_motorized 
+		}
+	}
+
+	# 添加1W摩托化装备
+	option = {
+		name = endaddeq.event.common.901005.a
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_0 
+			amount= 10000
+		}
+	}
+
+	# 添加5W摩托化装备
+	option = {
+		name = endaddeq.event.common.901005.b
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_0 
+			amount = 50000
+		}
+	}
+
+
+	# 添加10W摩托化装备
+	option = {
+		name = endaddeq.event.common.901005.c
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_0
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 摩托化装备
+
+

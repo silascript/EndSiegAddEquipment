@@ -35,6 +35,13 @@ ideas = {
 			}
 		}
 
+		# 摩托化装备
+		eaeq_common_motorized = {
+			on_add = {
+				country_event = endaddeq.event.common.901005
+			}
+		}
+
 
 	} # eaeq_common_ideas
 
