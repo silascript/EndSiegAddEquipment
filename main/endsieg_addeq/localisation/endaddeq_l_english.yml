@@ -41,19 +41,19 @@
   eaeq_common_convoy:0 "添加运输船"
 
   # 摩托化装备
-  eaeq_common_motorized:0 "添加摩托化装备"
+  eaeq_common_motorized:0 "添加早期摩托化装备"
   
 
 
   #=================枪/牵引式火炮/运输船=================#
 
   # 早期步兵装备
-  eaeq_earlyinfantry_0:0 "添加零级步兵装备"
-  eaeq_earlyinfantry_1:0 "添加一级步兵装备"
-  eaeq_earlyinfantry_2:0 "添加二级步兵装备"
-  eaeq_earlyinfantry_3:0 "添加三级步兵装备"
-  eaeq_earlyinfantry_4:0 "添加四级步兵装备"
-  eaeq_earlyinfantry_5:0 "添加五级步兵装备"
+  eaeq_earlyinfantry_0:0 "添加零级早期步兵装备"
+  eaeq_earlyinfantry_1:0 "添加一级早期步兵装备"
+  eaeq_earlyinfantry_2:0 "添加二级早期步兵装备"
+  eaeq_earlyinfantry_3:0 "添加三级早期步兵装备"
+  eaeq_earlyinfantry_4:0 "添加四级早期步兵装备"
+  eaeq_earlyinfantry_5:0 "添加五级早期步兵装备"
 
 
   #步兵装备(枪)
@@ -167,13 +167,13 @@
  endaddeq.event.common.901004.c:0 "添加1000运输船"
 
  # 摩托化装备
- endaddeq.event.common.901005:0 "添加摩托化装备"
- endaddeq.event.common.901005.t:0 "添加摩托化装备"
- endaddeq.event.common.901005.d:0 "添加摩托化装备。只能添加早期摩托化装备。"
+ endaddeq.event.common.901005:0 "添加早期摩托化装备"
+ endaddeq.event.common.901005.t:0 "添加早期摩托化装备"
+ endaddeq.event.common.901005.d:0 "添加早期摩托化装备。只能添加早期摩托化装备。"
 
- endaddeq.event.common.901005.a:0 "添加1w摩托化装备"
- endaddeq.event.common.901005.b:0 "添加5w摩托化装备"
- endaddeq.event.common.901005.c:0 "添加10w摩托化装备"
+ endaddeq.event.common.901005.a:0 "1w早期摩托化装备"
+ endaddeq.event.common.901005.b:0 "5w早期摩托化装备"
+ endaddeq.event.common.901005.c:0 "10w早期摩托化装备"
 
   
  #=====================陆军=====================#
@@ -191,14 +191,39 @@
 
 
   endaddeq.event.infantry.911001:0 "添加一级早期步兵装备"
+  endaddeq.event.infantry.911001.t:0 "添加一级早期步兵装备"
+  endaddeq.event.infantry.911001.d:0 "添加一级早期步兵装备"
+
+  endaddeq.event.infantry.911001.a:0 "1w早期一级步兵装备"
+  endaddeq.event.infantry.911001.b:0 "5w早期一级步兵装备"
+  endaddeq.event.infantry.911001.c:0 "10w早期一级步兵装备"
 
   endaddeq.event.infantry.911002:0 "添加二级早期步兵装备"
+  endaddeq.event.infantry.911002.t:0 "添加二级早期步兵装备"
+  endaddeq.event.infantry.911002.d:0 "添加二级早期步兵装备。也称为早期改良型步兵武器"
+
+  endaddeq.event.infantry.911002.a:0 "1w早期二级步兵装备"
+  endaddeq.event.infantry.911002.b:0 "5w早期二级步兵装备"
+  endaddeq.event.infantry.911002.c:0 "10w早期二级步兵装备"
 
   endaddeq.event.infantry.911003:0 "添加三级早期步兵装备"
+  endaddeq.event.infantry.911003.t:0 "添加早期三级步兵装备"
+  endaddeq.event.infantry.911003.d:0 "添加早期三级步兵装备。也称为早期步兵自动武。"
+
+  endaddeq.event.infantry.911003.a:0 "1w早期三级步兵装备"
+  endaddeq.event.infantry.911003.b:0 "5w早期三级步兵装备"
+  endaddeq.event.infantry.911003.c:0 "10w早期三级步兵装备"
 
   endaddeq.event.infantry.911004:0 "添加四级早期步兵装备"
+  endaddeq.event.infantry.911004.t:0 "添加四级早期步兵装备"
+  endaddeq.event.infantry.911004.d:0 "添加四级早期步兵装备。也称为早期先进步兵武器"
 
-  endaddeq.event.infantry.911005:0 "添加五级早期步兵装备"
+  endaddeq.event.infantry.911004.a:0 "1w早期四级步兵装备"
+  endaddeq.event.infantry.911004.b:0 "5w早期四级步兵装备"
+  endaddeq.event.infantry.911004.c:0 "10w早期四级步兵装备"
+
+  # 步兵装备
+
 
  
   #摩托化装备

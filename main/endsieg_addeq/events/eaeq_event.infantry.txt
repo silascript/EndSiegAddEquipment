@@ -59,15 +59,224 @@ country_event = {
 
 
 # 早期一级步兵装备
+country_event = {
+	id = endaddeq.event.infantry.911001 
+	title = endaddeq.event.infantry.911001.t
+	desc = endaddeq.event.infantry.911001.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_earlyinfantry_1
+		}
+	}
+
+	# 添加1W早期一级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911001.a
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_1 
+			amount = 10000
+		}
+	}
+
+	# 添加5W早期一级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911001.b
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_1
+			amount = 50000
+		}
+	}
+
+	# 添加10W早期一级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911001.c
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_1
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} 
 
 # 早期二级步兵装备
+country_event = {
+	id = endaddeq.event.infantry.911002 
+	title = endaddeq.event.infantry.911002.t
+	desc = endaddeq.event.infantry.911002.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_earlyinfantry_2
+		}
+	}
+
+	# 添加1W早期二级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911002.a
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_2 
+			amount = 10000
+		}
+	}
+
+	# 添加5W早期二级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911002.b
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_2
+			amount = 50000
+		}
+	}
+
+	# 添加10W早期二级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911002.c
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_2
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+}
 
 # 早期三级步兵装备
+country_event = {
+	id = endaddeq.event.infantry.911003 
+	title = endaddeq.event.infantry.911003.t
+	desc = endaddeq.event.infantry.911003.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_earlyinfantry_3
+		}
+	}
+
+	# 添加1W早期三级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911003.a
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_3 
+			amount = 10000
+		}
+	}
+
+	# 添加5W早期三级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911003.b
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_3
+			amount = 50000
+		}
+	}
+
+	# 添加10W早期三级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911003.c
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_3
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+}
 
 # 早期四级步兵装备
+country_event = {
+	id = endaddeq.event.infantry.911004 
+	title = endaddeq.event.infantry.911004.t
+	desc = endaddeq.event.infantry.911004.d
 
-# 早期五级步兵装备
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
 
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_earlyinfantry_4
+		}
+	}
+
+	# 添加1W早期四级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911004.a
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_4 
+			amount = 10000
+		}
+	}
+
+	# 添加5W早期四级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911004.b
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_4
+			amount = 50000
+		}
+	}
+
+	# 添加10W早期四级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911004.c
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_4
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+}
 
 #####################步兵装备#####################
 # 步兵装备

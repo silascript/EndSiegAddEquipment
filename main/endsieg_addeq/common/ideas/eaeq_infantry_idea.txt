@@ -94,13 +94,6 @@ ideas = {
 		} # 四级早期步兵装备
 
 
-		# 五级早期步兵装备
-		eaeq_earlyinfantry_5 = {
-			on_add = {
-				country_event = endaddeq.event.infantry.911005
-			}
-		} # 五级早期步兵装备
-
 		########################################
 
 		# 步兵装备
