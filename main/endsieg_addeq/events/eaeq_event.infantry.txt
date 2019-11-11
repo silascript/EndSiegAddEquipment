@@ -1,0 +1,73 @@
+add_namespace = endaddeq.event.infantry
+
+
+# 早期步兵装备
+# 早期零级步兵装备
+country_event = {
+	id = endaddeq.event.infantry.911000 
+	title = endaddeq.event.infantry.911000.t
+	desc = endaddeq.event.infantry.911000.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_earlyinfantry_0
+		}
+	}
+
+	# 添加1W早期零级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911000.a
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_0 
+			amount = 10000
+		}
+	}
+
+	# 添加5W早期零级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911000.b
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_0
+			amount = 50000
+		}
+	}
+
+	# 添加10W早期零级步兵装备
+	option = {
+		name = endaddeq.event.infantry.911000.c
+
+		add_equipment_to_stockpile = {
+			type = early_infantry_equipment_0
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 早期零级步兵装备
+
+
+# 早期一级步兵装备
+
+# 早期二级步兵装备
+
+# 早期三级步兵装备
+
+# 早期四级步兵装备
+
+# 早期五级步兵装备
+
+
+#####################步兵装备#####################
+# 步兵装备

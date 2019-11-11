@@ -47,7 +47,17 @@
 
   #=================枪/牵引式火炮/运输船=================#
 
+  # 早期步兵装备
+  eaeq_earlyinfantry_0:0 "添加零级步兵装备"
+  eaeq_earlyinfantry_1:0 "添加一级步兵装备"
+  eaeq_earlyinfantry_2:0 "添加二级步兵装备"
+  eaeq_earlyinfantry_3:0 "添加三级步兵装备"
+  eaeq_earlyinfantry_4:0 "添加四级步兵装备"
+  eaeq_earlyinfantry_5:0 "添加五级步兵装备"
+
+
   #步兵装备(枪)
+  eaeq_infantry_0:0 "添加零级步兵装备"
   eaeq_infantry_1:0 "添加一级步兵装备"
   eaeq_infantry_2:0 "添加二级步兵装备"
   eaeq_infantry_3:0 "添加三级步兵装备"
@@ -169,7 +179,26 @@
  #=====================陆军=====================#
 
   #-------------------步兵装备-------------------#
-  #步兵装备数量
+  #步兵装备
+  # 早期步兵装备
+  endaddeq.event.infantry.911000:0 "添加零级早期步兵装备"
+  endaddeq.event.infantry.911000.t:0 "添加零级早期步兵装备"
+  endaddeq.event.infantry.911000.d:0 "添加零级早期步兵装备"
+
+  endaddeq.event.infantry.911000.a:0 "1w早期零级步兵装备"
+  endaddeq.event.infantry.911000.b:0 "5w早期零级步兵装备"
+  endaddeq.event.infantry.911000.c:0 "10w早期零级步兵装备"
+
+
+  endaddeq.event.infantry.911001:0 "添加一级早期步兵装备"
+
+  endaddeq.event.infantry.911002:0 "添加二级早期步兵装备"
+
+  endaddeq.event.infantry.911003:0 "添加三级早期步兵装备"
+
+  endaddeq.event.infantry.911004:0 "添加四级早期步兵装备"
+
+  endaddeq.event.infantry.911005:0 "添加五级早期步兵装备"
 
  
   #摩托化装备

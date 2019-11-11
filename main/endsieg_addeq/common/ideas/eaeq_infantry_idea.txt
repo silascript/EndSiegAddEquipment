@@ -48,19 +48,16 @@ ideas = {
 
 	# 步兵装备
 	eaeq_infantry_ideas = {
-
 		# 早期步兵装备
 		# early_infantry_equipment_ (0~4)
 		# eaeq_early_infantry_1
-
-
 
 		# infantry_equipment_ (0~5)
 
 		# 零级早期步兵装备
 		eaeq_earlyinfantry_0 = {
 			on_add = {
-				#country_event = 	
+				country_event = endaddeq.event.infantry.911000  	
 			}
 		} # 零级早期步兵装备
 
@@ -68,7 +65,7 @@ ideas = {
 		# 一级早期步兵装备
 		eaeq_earlyinfantry_1 = {
 			on_add = {
-				#country_event = 	
+				country_event = endaddeq.event.infantry.911001
 			}
 		} # 一级早期步兵装备
 
@@ -76,7 +73,7 @@ ideas = {
 		# 二级早期步兵装备
 		eaeq_earlyinfantry_2 = {
 			on_add = {
-				#country_event = 	
+				country_event = endaddeq.event.infantry.911002	
 			}
 		} # 二级早期步兵装备
 
@@ -84,7 +81,7 @@ ideas = {
 		# 三级早期步兵装备
 		eaeq_earlyinfantry_3 = {
 			on_add = {
-				#country_event = 	
+				country_event = endaddeq.event.infantry.911003	
 			}
 		} # 三级早期步兵装备
 
@@ -92,7 +89,7 @@ ideas = {
 		# 四级早期步兵装备
 		eaeq_earlyinfantry_4 = {
 			on_add = {
-				#country_event = 	
+				country_event = endaddeq.event.infantry.911004
 			}
 		} # 四级早期步兵装备
 
@@ -100,7 +97,7 @@ ideas = {
 		# 五级早期步兵装备
 		eaeq_earlyinfantry_5 = {
 			on_add = {
-				#country_event = 	
+				country_event = endaddeq.event.infantry.911005
 			}
 		} # 五级早期步兵装备
 
@@ -116,7 +113,7 @@ ideas = {
 			}
 		} # 零级步兵装备
 
-		
+
 		# 一级步兵装备
 		eaeq_infantry_1 = {
 			on_add = {
