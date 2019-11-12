@@ -35,10 +35,17 @@ ideas = {
 			}
 		}
 
-		# 摩托化装备
-		eaeq_common_motorized = {
+		# 零级摩托化装备
+		eaeq_common_motorized_0 = {
 			on_add = {
 				country_event = endaddeq.event.common.901005
+			}
+		}
+
+		# 一级摩托化装备
+		eaeq_common_motorized_1 = {
+			on_add = {
+				country_event = endaddeq.event.common.901006
 			}
 		}
 

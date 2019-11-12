@@ -25,7 +25,7 @@
 
 
   #####################各子idea标题#####################
- 
+
   #=======================通用=========================#
   #
   # 口粮
@@ -41,8 +41,8 @@
   eaeq_common_convoy:0 "添加运输船"
 
   # 摩托化装备
-  eaeq_common_motorized:0 "添加早期摩托化装备"
-  
+  eaeq_common_motorized_0:0 "添加早期摩托化装备"
+  eaeq_common_motorized_1:0 "添加摩托化装备" 
 
 
   #=================枪/牵引式火炮/运输船=================#
@@ -121,7 +121,7 @@
   #------------------运输机------------------#
   
 
- ###########################事件###########################
+  ###########################事件###########################
 
   #事件通用按钮文本
   endaddeq.event.common.a:0 "确定"
@@ -129,54 +129,59 @@
   endaddeq.event.common.c:0 "上一页"
   endaddeq.event.common.d:0 "下一页"
 
- #=====================通用=====================#
- # 口粮
- endaddeq.event.common.901001:0 "添加口粮"
- endaddeq.event.common.901001.t:0 "添加口粮"
- endaddeq.event.common.901001.d:0 "添加口粮"
+#=====================通用=====================#
+  # 口粮
+  endaddeq.event.common.901001:0 "添加口粮"
+  endaddeq.event.common.901001.t:0 "添加口粮"
+  endaddeq.event.common.901001.d:0 "添加口粮"
+  endaddeq.event.common.901001.a:0 "添加1w口粮"
+  endaddeq.event.common.901001.b:0 "添加5w口粮"
+  endaddeq.event.common.901001.c:0 "添加10w口粮"
+  # 单车
+  endaddeq.event.common.901002:0 "添加单车"
+  endaddeq.event.common.901002.t:0 "添加单车"
+  endaddeq.event.common.901002.d:0 "添加单车"
 
- endaddeq.event.common.901001.a:0 "添加1w口粮"
- endaddeq.event.common.901001.b:0 "添加5w口粮"
- endaddeq.event.common.901001.c:0 "添加10w口粮"
+  endaddeq.event.common.901002.a:0 "添加5000单车"
+  endaddeq.event.common.901002.b:0 "添加1w单车"
+  endaddeq.event.common.901002.c:0 "添加5w单车"
 
- # 单车
- endaddeq.event.common.901002:0 "添加单车"
- endaddeq.event.common.901002.t:0 "添加单车"
- endaddeq.event.common.901002.d:0 "添加单车"
+  # 支援装备
+  endaddeq.event.common.901003:0 "添加支援装备"
+  endaddeq.event.common.901003.t:0 "添加支援装备"
+  endaddeq.event.common.901003.d:0 "添加支援装备"
 
- endaddeq.event.common.901002.a:0 "添加5000单车"
- endaddeq.event.common.901002.b:0 "添加1w单车"
- endaddeq.event.common.901002.c:0 "添加5w单车"
+  endaddeq.event.common.901003.a:0 "添加1w支援装备"
+  endaddeq.event.common.901003.b:0 "添加5w支援装备"
+  endaddeq.event.common.901003.c:0 "添加10w支援装备"
 
- # 支援装备
- endaddeq.event.common.901003:0 "添加支援装备"
- endaddeq.event.common.901003.t:0 "添加支援装备"
- endaddeq.event.common.901003.d:0 "添加支援装备"
+  # 运输船
+  endaddeq.event.common.901004:0 "添加运输船"
+  endaddeq.event.common.901004.t:0 "添加运输船"
+  endaddeq.event.common.901004.d:0 "添加运输船"
 
- endaddeq.event.common.901003.a:0 "添加1w支援装备"
- endaddeq.event.common.901003.b:0 "添加5w支援装备"
- endaddeq.event.common.901003.c:0 "添加10w支援装备"
+  endaddeq.event.common.901004.a:0 "添加100运输船"
+  endaddeq.event.common.901004.b:0 "添加500运输船"
+  endaddeq.event.common.901004.c:0 "添加1000运输船"
 
- # 运输船
- endaddeq.event.common.901004:0 "添加运输船"
- endaddeq.event.common.901004.t:0 "添加运输船"
- endaddeq.event.common.901004.d:0 "添加运输船"
+  # 摩托化装备
+  endaddeq.event.common.901005:0 "添加早期摩托化装备"
+  endaddeq.event.common.901005.t:0 "添加早期摩托化装备"
+  endaddeq.event.common.901005.d:0 "添加早期摩托化装备。"
 
- endaddeq.event.common.901004.a:0 "添加100运输船"
- endaddeq.event.common.901004.b:0 "添加500运输船"
- endaddeq.event.common.901004.c:0 "添加1000运输船"
+  endaddeq.event.common.901005.a:0 "1w早期摩托化装备"
+  endaddeq.event.common.901005.b:0 "5w早期摩托化装备"
+  endaddeq.event.common.901005.c:0 "10w早期摩托化装备"
 
- # 摩托化装备
- endaddeq.event.common.901005:0 "添加早期摩托化装备"
- endaddeq.event.common.901005.t:0 "添加早期摩托化装备"
- endaddeq.event.common.901005.d:0 "添加早期摩托化装备。只能添加早期摩托化装备。"
+  endaddeq.event.common.901006:0 "添加摩托化装备"
+  endaddeq.event.common.901006.t:0 "添加摩托化装备"
+  endaddeq.event.common.901006.d:0 "添加摩托化装备。"
 
- endaddeq.event.common.901005.a:0 "1w早期摩托化装备"
- endaddeq.event.common.901005.b:0 "5w早期摩托化装备"
- endaddeq.event.common.901005.c:0 "10w早期摩托化装备"
-
+  endaddeq.event.common.901006.a:0 "1w摩托化装备"
+  endaddeq.event.common.901006.b:0 "5w摩托化装备"
+  endaddeq.event.common.901006.c:0 "10w摩托化装备"
   
- #=====================陆军=====================#
+  #=====================陆军=====================#
 
   #-------------------步兵装备-------------------#
   #步兵装备
@@ -225,13 +230,13 @@
   # 步兵装备
 
 
- 
+
   #摩托化装备
   
- 
+
   #炮兵装备
   
- 
+
   #防空及反坦
   
 
@@ -244,7 +249,7 @@
   
 
 
- #=====================坦克=====================#
+  #=====================坦克=====================#
   
   
   #-----------------轻型坦克-----------------#
@@ -316,10 +321,10 @@
   
 
   
- #========================飞机========================# 
+  #========================飞机========================# 
 
   #-------------------战斗机-------------------#
- 
+
   #####早期战斗机#####
   
 
@@ -334,7 +339,7 @@
 
   #####舰载轻型战斗机#####
 
- 
+
 
 
   #####近距支援机#####
@@ -344,11 +349,11 @@
 
   #####舰载近距支援机#####
   
- 
+
 
   #####重型战斗机#####
 
- 
+
 
   #-------------------轰炸机-------------------#
   
@@ -383,18 +388,13 @@
   
   
 
- #========================火箭========================#
+  #========================火箭========================#
 
   #--------------------火箭拦截器--------------------#
 
- 
+
 
 
   #-----------自杀式飞行器-----------#
-  
-  
-
-  
-  #========================运输机========================#
   
   

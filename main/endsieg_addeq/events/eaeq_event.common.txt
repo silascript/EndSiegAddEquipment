@@ -221,6 +221,7 @@ country_event = {
 } # 运输船
 
 # 摩托化装备
+# 零级摩托化装备
 country_event = {
 	id = endaddeq.event.common.901005
 	title = endaddeq.event.common.901005.t
@@ -234,11 +235,11 @@ country_event = {
 	#移除idea
 	immediate = {
 		hidden_effect = { 
-			remove_ideas = eaeq_common_motorized 
+			remove_ideas = eaeq_common_motorized_0
 		}
 	}
 
-	# 添加1W摩托化装备
+	# 添加1W零级摩托化装备
 	option = {
 		name = endaddeq.event.common.901005.a
 		add_equipment_to_stockpile = {
@@ -247,7 +248,7 @@ country_event = {
 		}
 	}
 
-	# 添加5W摩托化装备
+	# 添加5W零级摩托化装备
 	option = {
 		name = endaddeq.event.common.901005.b
 		add_equipment_to_stockpile = {
@@ -257,7 +258,7 @@ country_event = {
 	}
 
 
-	# 添加10W摩托化装备
+	# 添加10W零级摩托化装备
 	option = {
 		name = endaddeq.event.common.901005.c
 		add_equipment_to_stockpile = {
@@ -271,6 +272,58 @@ country_event = {
 		name = endaddeq.event.common.b
 	}
 
-} # 摩托化装备
+} # 零级摩托化装备
 
+# 一级摩托化装备
+country_event = {
+	id = endaddeq.event.common.901006
+	title = endaddeq.event.common.901006.t
+	desc = endaddeq.event.common.901006.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_motorized_1 
+		}
+	}
+
+	# 添加1W一级摩托化装备
+	option = {
+		name = endaddeq.event.common.901006.a
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount= 10000
+		}
+	}
+
+	# 添加5W一级摩托化装备
+	option = {
+		name = endaddeq.event.common.901006.b
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1 
+			amount = 50000
+		}
+	}
+
+
+	# 添加10W一级摩托化装备
+	option = {
+		name = endaddeq.event.common.901006.c
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 一级摩托化装备
 
