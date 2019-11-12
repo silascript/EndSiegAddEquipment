@@ -44,6 +44,13 @@
   eaeq_common_motorized_0:0 "添加早期摩托化装备"
   eaeq_common_motorized_1:0 "添加摩托化装备" 
 
+  # 机械化装备
+  eaeq_common_mechanized_1:0 "添加一级机械化装备"
+  eaeq_common_mechanized_2:0 "添加二级机械化装备"
+  eaeq_common_mechanized_3:0 "添加三级机械化装备"
+  eaeq_common_mechanized_4:0 "添加四级机械化装备"
+  eaeq_common_mechanized_5:0 "添加五级机械化装备"
+
 
   #=================枪/牵引式火炮/运输船=================#
 
@@ -129,7 +136,7 @@
   endaddeq.event.common.c:0 "上一页"
   endaddeq.event.common.d:0 "下一页"
 
-#=====================通用=====================#
+  #=====================通用=====================#
   # 口粮
   endaddeq.event.common.901001:0 "添加口粮"
   endaddeq.event.common.901001.t:0 "添加口粮"
@@ -180,6 +187,49 @@
   endaddeq.event.common.901006.a:0 "1w摩托化装备"
   endaddeq.event.common.901006.b:0 "5w摩托化装备"
   endaddeq.event.common.901006.c:0 "10w摩托化装备"
+
+  # 机械化装备
+  endaddeq.event.common.901011:0 "添加一级机械化装备"
+  endaddeq.event.common.901011.t:0 "添加一级机械化装备"
+  endaddeq.event.common.901011.d:0 "添加一级机械化装备"
+  
+  endaddeq.event.common.901011.a:0 "1w一级机械化装备"
+  endaddeq.event.common.901011.b:0 "5w一级机械化装备"
+  endaddeq.event.common.901011.c:0 "10w一级机械化装备"
+
+
+  endaddeq.event.common.901012:0 "添加二级机械化装备"
+  endaddeq.event.common.901012.t:0 "添加二级机械化装备"
+  endaddeq.event.common.901012.d:0 "添加二级机械化装备"
+
+  endaddeq.event.common.901012.a:0 "1w机械化装备"
+  endaddeq.event.common.901012.b:0 "5w机械化装备"
+  endaddeq.event.common.901012.c:0 "10w机械化装备"
+
+  endaddeq.event.common.901013:0 "添加三级机械化装备"
+  endaddeq.event.common.901013.t:0 "添加三级机械化装备"
+  endaddeq.event.common.901013.d:0 "添加三级机械化装备"
+
+  endaddeq.event.common.901013.a:0 "1w三级机械化装备"
+  endaddeq.event.common.901013.b:0 "5w三级机械化装备"
+  endaddeq.event.common.901013.c:0 "10w三级机械化装备"
+
+  endaddeq.event.common.901014:0 "添加四级机械化装备"
+  endaddeq.event.common.901014.t:0 "添加四级机械化装备"
+  endaddeq.event.common.901014.d:0 "添加四级机械化装备"
+
+  endaddeq.event.common.901014.a:0 "1w四级机械化装备"
+  endaddeq.event.common.901014.b:0 "5w四级机械化装备"
+  endaddeq.event.common.901014.c:0 "10w四级机械化装备"
+
+  endaddeq.event.common.901015:0 "添加五级机械化装备"
+  endaddeq.event.common.901015.t:0 "添加五级机械化装备"
+  endaddeq.event.common.901015.d:0 "添加五级机械化装备"
+
+  endaddeq.event.common.901015.a:0 "1w五级机械化装备"
+  endaddeq.event.common.901015.b:0 "5w五级机械化装备"
+  endaddeq.event.common.901015.c:0 "10w五级机械化装备"
+
   
   #=====================陆军=====================#
 
@@ -230,18 +280,10 @@
   # 步兵装备
 
 
-
-  #摩托化装备
-  
-
   #炮兵装备
   
 
   #防空及反坦
-  
-
-  #机械化装备
-  
   
 
   #海军

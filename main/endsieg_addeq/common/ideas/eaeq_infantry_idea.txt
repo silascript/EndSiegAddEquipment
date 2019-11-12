@@ -49,6 +49,43 @@ ideas = {
 			}
 		}
 
+		# 机械化装备
+		# mechanized_equipment (1~5)
+		# 一级机械化装备
+		eaeq_common_mechanized_1 = {
+			on_add = {
+				country_event = endaddeq.event.common.901011 
+			}
+		}
+
+		# 二级机械化装备
+		eaeq_common_mechanized_2 = {
+			on_add = {
+				country_event = endaddeq.event.common.901012 
+			}
+		}
+		
+		# 三级机械化装备
+		eaeq_common_mechanized_3 = {
+			on_add = {
+				country_event = endaddeq.event.common.901013
+			}
+		}
+		
+		# 四级机械化装备
+		eaeq_common_mechanized_4 = {
+			on_add = {
+				country_event = endaddeq.event.common.901014 
+			}
+		}
+
+		# 五级机械化装备
+		eaeq_common_mechanized_5 = {
+			on_add = {
+				country_event = endaddeq.event.common.901015
+			}
+		}
+
 
 	} # eaeq_common_ideas
 

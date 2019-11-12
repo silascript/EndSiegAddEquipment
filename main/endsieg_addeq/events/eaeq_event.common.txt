@@ -55,6 +55,9 @@ country_event = {
 
 } # 口粮
 
+############################################
+
+
 # 单车
 country_event = {
 	id = endaddeq.event.common.901002 
@@ -109,6 +112,8 @@ country_event = {
 	}
 
 } # 单车
+
+############################################
 
 
 # 支援装备
@@ -165,6 +170,8 @@ country_event = {
 
 } # 支援装备
 
+############################################
+
 
 # 运输船
 country_event = {
@@ -219,6 +226,8 @@ country_event = {
 
 
 } # 运输船
+
+#############################################
 
 # 摩托化装备
 # 零级摩托化装备
@@ -326,4 +335,268 @@ country_event = {
 	}
 
 } # 一级摩托化装备
+
+############################################
+# 机械化装备
+
+# 一级机械化装备
+country_event = {
+	id = endaddeq.event.common.901011 
+	title = endaddeq.event.common.901011.t  
+	desc = endaddeq.event.common.901011.d 
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_mechanized_1 
+		}
+	}
+
+	# 添加1w一级机械化装备
+	option = {
+		name = endaddeq.event.common.901011.a 
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_1 
+			amount = 10000
+		}
+	}
+
+	# 添加5w一级机械化装备
+	option = {
+		name = endaddeq.event.common.901011.b
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_1 
+			amount = 50000
+		}
+	}
+
+	# 添加10w一级机械化装备
+	option = {
+		name = endaddeq.event.common.901011.c
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_1 
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 一级机械化装备
+
+# 二级机械化装备
+country_event = {
+	id = endaddeq.event.common.901012 
+	title = endaddeq.event.common.901012.t  
+	desc = endaddeq.event.common.901012.d 
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_mechanized_2 
+		}
+	}
+
+	# 添加1w二级机械化装备
+	option = {
+		name = endaddeq.event.common.901012.a 
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_2 
+			amount = 10000
+		}
+	}
+
+	# 添加5二级机械化装备
+	option = {
+		name = endaddeq.event.common.901012.b
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_2 
+			amount = 50000
+		}
+	}
+
+	# 添加10w二级机械化装备
+	option = {
+		name = endaddeq.event.common.901012.c
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_2 
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 二级机械化装
+
+# 三级机械化装备
+country_event = {
+	id = endaddeq.event.common.901013 
+	title = endaddeq.event.common.901013.t  
+	desc = endaddeq.event.common.901013.d 
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_mechanized_3 
+		}
+	}
+
+	# 添加1w三级机械化装备
+	option = {
+		name = endaddeq.event.common.901013.a 
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_3 
+			amount = 10000
+		}
+	}
+
+	# 添加5w三级机械化装备
+	option = {
+		name = endaddeq.event.common.901013.b
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_3
+			amount = 50000
+		}
+	}
+
+	# 添加10w三级机械化装备
+	option = {
+		name = endaddeq.event.common.901013.c
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_3 
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 三级机械化装
+
+# 四级机械化装备
+country_event = {
+	id = endaddeq.event.common.901014 
+	title = endaddeq.event.common.901014.t  
+	desc = endaddeq.event.common.901014.d 
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_mechanized_4 
+		}
+	}
+
+	# 添加1w四级机械化装备
+	option = {
+		name = endaddeq.event.common.901014.a 
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_4 
+			amount = 10000
+		}
+	}
+
+	# 添加5w四级机械化装备
+	option = {
+		name = endaddeq.event.common.901014.b
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_4
+			amount = 50000
+		}
+	}
+
+	# 添加10w四级机械化装备
+	option = {
+		name = endaddeq.event.common.901014.c
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_4 
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 四级机械化装
+
+# 五级机械化装备
+country_event = {
+	id = endaddeq.event.common.901015 
+	title = endaddeq.event.common.901015.t  
+	desc = endaddeq.event.common.901015.d 
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_common_mechanized_5
+		}
+	}
+
+	# 添加1w五级机械化装备
+	option = {
+		name = endaddeq.event.common.901015.a 
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_5 
+			amount = 10000
+		}
+	}
+
+	# 添加5w五级机械化装备
+	option = {
+		name = endaddeq.event.common.901015.b
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_5
+			amount = 50000
+		}
+	}
+
+	# 添加10w五级机械化装备
+	option = {
+		name = endaddeq.event.common.901015.c
+		add_equipment_to_stockpile = {
+			type =	mechanized_equipment_5 
+			amount = 100000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 五级机械化
+
 
