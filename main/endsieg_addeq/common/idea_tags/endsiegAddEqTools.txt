@@ -1,12 +1,15 @@
 idea_categories = {
 	
 	# Idae栏
-	# 步兵装备
+	# 通用及步兵装备栏
 	EndAddEq_Infantry_Idea = {
 
 		# 通用装备
 		slot = eaeq_common_ideas
+		# 步兵装备
 		slot = eaeq_infantry_ideas
+		# 装甲车
+		slot = eaeq_armored_car_ideas
 
 		cost = 0
 		removal_cost = 0
@@ -14,14 +17,14 @@ idea_categories = {
 	} # EndAddEq_Infantry_Idea
 
 
-	# 坦克
+	# 坦克栏
 	EndAddEq_Tank_Idea = {
 
 		cost = 0
 		removal_cost = 0
 	}
 
-	# 空军
+	# 空军栏
 	EndAddEq_Air_Idea = {
 
 		cost = 0

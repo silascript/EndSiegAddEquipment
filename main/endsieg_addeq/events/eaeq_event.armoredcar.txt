@@ -1,0 +1,566 @@
+add_namespace = endaddeq.event.armoredcar
+
+# 装甲车
+
+# 零级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902000
+	title = endaddeq.event.armoredcar.902000.t
+	desc = endaddeq.event.armoredcar.902000.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_0 
+		}
+	}
+
+	# 添加5000装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902000.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_0 
+			amount = 5000
+		}
+	}
+
+	# 添加1w装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902000.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_0 
+			amount = 10000
+		}
+	}
+
+	# 添加5w装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902000.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_0 
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+
+} # 零级装甲车
+
+# 一级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902001
+	title = endaddeq.event.armoredcar.902001.t
+	desc = endaddeq.event.armoredcar.902001.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_1
+		}
+	}
+
+	# 添加5000一级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902001.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_1 
+			amount = 5000
+		}
+	}
+
+	# 添加1w一级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902001.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_1 
+			amount = 10000
+		}
+	}
+
+	# 添加5w一级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902001.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_1
+			amount = 50000
+		}
+
+	} 
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 一级装甲车
+
+# 二级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902002
+	title = endaddeq.event.armoredcar.902002.t
+	desc = endaddeq.event.armoredcar.902002.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_2
+		}
+	}
+
+	# 添加5000二级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902002.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_2 
+			amount = 5000
+		}
+	}
+
+	# 添加1w二级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902002.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_2
+			amount = 10000
+		}
+	}
+
+	# 添加5w二级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902002.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_2
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 二级装甲车
+
+# 三级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902003
+	title = endaddeq.event.armoredcar.902003.t
+	desc = endaddeq.event.armoredcar.902003.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_3
+		}
+	}
+
+	# 添加5000三级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902003.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_3
+			amount = 5000
+		}
+	}
+
+	# 添加1w三级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902003.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_3
+			amount = 10000
+		}
+	}
+
+	# 添加5w三级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902003.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_3
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 三级装甲车
+
+
+# 四级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902004
+	title = endaddeq.event.armoredcar.902004.t
+	desc = endaddeq.event.armoredcar.902004.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_4
+		}
+	}
+
+	# 添加5000四级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902004.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_4
+			amount = 5000
+		}
+	}
+
+	# 添加1w四级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902004.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_4
+			amount = 10000
+		}
+	}
+
+	# 添加5w四级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902004.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_4
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 四级装甲车
+
+# 五级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902005
+	title = endaddeq.event.armoredcar.902005.t
+	desc = endaddeq.event.armoredcar.902005.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_5
+		}
+	}
+
+	# 添加5000五级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902005.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_5
+			amount = 5000
+		}
+	}
+
+	# 添加1w五级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902005.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_5
+			amount = 10000
+		}
+	}
+
+	# 添加5w五级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902005.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_5
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 五级装甲车
+
+# 六级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902006
+	title = endaddeq.event.armoredcar.902006.t
+	desc = endaddeq.event.armoredcar.902006.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_6
+		}
+	}
+
+	# 添加5000六级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902006.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_6
+			amount = 5000
+		}
+	}
+
+	# 添加1w六级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902006.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_6
+			amount = 10000
+		}
+	}
+
+	# 添加5w六级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902006.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_6
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 六级装甲车
+
+# 七级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902007
+	title = endaddeq.event.armoredcar.902007.t
+	desc = endaddeq.event.armoredcar.902007.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_7
+		}
+	}
+
+	# 添加5000七级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902007.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_7
+			amount = 5000
+		}
+	}
+
+	# 添加1w七级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902007.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_7
+			amount = 10000
+		}
+	}
+
+	# 添加5w七级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902007.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_7
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 七级装甲车
+
+# 八级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902008
+	title = endaddeq.event.armoredcar.902008.t
+	desc = endaddeq.event.armoredcar.902008.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_8
+		}
+	}
+
+	# 添加5000八级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902008.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_8
+			amount = 5000
+		}
+	}
+
+	# 添加1w八级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902008.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_8
+			amount = 10000
+		}
+	}
+
+	# 添加5w八级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902008.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_8
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 八级装甲车
+
+# 九级装甲车
+country_event = {
+	id = endaddeq.event.armoredcar.902009
+	title = endaddeq.event.armoredcar.902009.t
+	desc = endaddeq.event.armoredcar.902009.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_armored_car_9
+		}
+	}
+
+	# 添加5000九级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902009.a  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_9
+			amount = 5000
+		}
+	}
+
+	# 添加1w九级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902009.b  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_9
+			amount = 10000
+		}
+	}
+
+	# 添加5w九级装甲车
+	option = {
+		name = endaddeq.event.armoredcar.902009.c  
+
+		add_equipment_to_stockpile = {
+			type = armored_car_equipment_9
+			amount = 50000
+		}
+	}
+
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 九级装甲车

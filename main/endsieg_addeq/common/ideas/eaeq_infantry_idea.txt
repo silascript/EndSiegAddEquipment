@@ -194,4 +194,89 @@ ideas = {
 	} # eaeq_infantry_ideas
 
 
-}
+	# 装甲车
+	eaeq_armored_car_ideas = {
+
+		# armored_car_equipment (0~9)
+
+		# 零级装甲车
+		eaeq_armored_car_0 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902000
+			}
+		} # 零级装甲车	
+
+
+		# 一级装甲车
+		eaeq_armored_car_1 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902001	
+			}
+		} # 一级装甲车
+
+		# 二级装甲车
+		eaeq_armored_car_2 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902002	
+			}
+		} # 二级装甲车
+
+
+		# 三级装甲车
+		eaeq_armored_car_3 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902003
+			}
+		} # 三级装甲车
+
+		# 四级装甲车
+		eaeq_armored_car_4 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902004	
+			}
+		} # 四级装甲车
+
+
+		# 五级装甲车
+		eaeq_armored_car_5 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902005
+			}
+		} # 五级装甲车
+
+
+		# 六级装甲车
+		eaeq_armored_car_6 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902006
+			}
+		} # 六级装甲车
+
+
+		# 七级装甲车
+		eaeq_armored_car_7 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902007	
+			}
+		} # 七级装甲车
+
+
+		# 八级装甲车
+		eaeq_armored_car_8 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902008
+			}
+		} # 八级装甲车
+
+
+		# 九级装甲车
+		eaeq_armored_car_9 = {
+			on_add = {
+				country_event = endaddeq.event.armoredcar.902009
+			}
+		} # 九级装甲车
+
+
+	} # eaeq_armored_car_ideas
+
+} # ideas

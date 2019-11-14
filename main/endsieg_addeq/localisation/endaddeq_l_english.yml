@@ -15,6 +15,7 @@
   # 陆军及通用装备
   eaeq_common_ideas:0 "添加通用装备"
   eaeq_infantry_ideas:0 "添加步兵装备"
+  eaeq_armored_car_Ideas:0 "添加装甲车"
 
   
   # 坦克
@@ -51,6 +52,19 @@
   eaeq_common_mechanized_4:0 "添加四级机械化装备"
   eaeq_common_mechanized_5:0 "添加五级机械化装备"
 
+  #=======================装甲车======================#
+
+  # 装甲车
+  eaeq_armored_car_0:0 "添加零级装甲车"
+  eaeq_armored_car_1:0 "添加一级装甲车"
+  eaeq_armored_car_2:0 "添加二级装甲车"
+  eaeq_armored_car_3:0 "添加三级装甲车"
+  eaeq_armored_car_4:0 "添加四级装甲车"
+  eaeq_armored_car_5:0 "添加五级装甲车"
+  eaeq_armored_car_6:0 "添加六级装甲车"
+  eaeq_armored_car_7:0 "添加七级装甲车"
+  eaeq_armored_car_8:0 "添加八级装甲车"
+  eaeq_armored_car_9:0 "添加九级装甲车"
 
   #=================枪/牵引式火炮/运输船=================#
 
@@ -230,6 +244,87 @@
   endaddeq.event.common.901015.b:0 "5w五级机械化装备"
   endaddeq.event.common.901015.c:0 "10w五级机械化装备"
 
+  #=====================装甲车=====================#
+  endaddeq.event.armoredcar.902000:0 "添加零级装甲车"
+  endaddeq.event.armoredcar.902000.t:0 "添加零级装甲车"
+  endaddeq.event.armoredcar.902000.d:0 "添加零级装甲车"
+
+  endaddeq.event.armoredcar.902000.a:0 "5000零级装甲车"
+  endaddeq.event.armoredcar.902000.b:0 "1w零级装甲车"
+  endaddeq.event.armoredcar.902000.c:0 "5w零级装甲车"
+
+  endaddeq.event.armoredcar.902001:0 "添加一级装甲车"
+  endaddeq.event.armoredcar.902001.t:0 "添加一级装甲车"
+  endaddeq.event.armoredcar.902001.d:0 "添加一级装甲车"
+
+  endaddeq.event.armoredcar.902001.a:0 "5000一级装甲车"
+  endaddeq.event.armoredcar.902001.b:0 "1w一级装甲车"
+  endaddeq.event.armoredcar.902001.c:0 "5w一级装甲车"
+
+
+  endaddeq.event.armoredcar.902002:0 "添加二级装甲车"
+  endaddeq.event.armoredcar.902002.t:0 "添加二级装甲车"
+  endaddeq.event.armoredcar.902002.d:0 "添加二级装甲车"
+
+  endaddeq.event.armoredcar.902002.a:0 "添加5000二级装甲车"
+  endaddeq.event.armoredcar.902002.b:0 "添加1w二级装甲车"
+  endaddeq.event.armoredcar.902002.c:0 "添加5w二级装甲车"
+
+  endaddeq.event.armoredcar.902003:0 "添加三级装甲车"
+  endaddeq.event.armoredcar.902003.t:0 "添加三级装甲车"
+  endaddeq.event.armoredcar.902003.d:0 "添加三级装甲车"
+
+  endaddeq.event.armoredcar.902003.a:0 "5000三级装甲车"
+  endaddeq.event.armoredcar.902003.b:0 "1w三级装甲车"
+  endaddeq.event.armoredcar.902003.c:0 "5w三级装甲车"
+
+  endaddeq.event.armoredcar.902004:0 "添加四级装甲车"
+  endaddeq.event.armoredcar.902004.t:0 "添加四级装甲车"
+  endaddeq.event.armoredcar.902004.d:0 "添加四级装甲车"
+
+  endaddeq.event.armoredcar.902004.a:0 "5000四级装甲车"
+  endaddeq.event.armoredcar.902004.b:0 "1w四级装甲车"
+  endaddeq.event.armoredcar.902004.c:0 "5w四级装甲车"
+
+  endaddeq.event.armoredcar.902005:0 "添加五级装甲车"
+  endaddeq.event.armoredcar.902005.t:0 "添加五级装甲车"
+  endaddeq.event.armoredcar.902005.d:0 "添加五级装甲车"
+
+  endaddeq.event.armoredcar.902005.a:0 "5000五级装甲车"
+  endaddeq.event.armoredcar.902005.b:0 "1w五级装甲车"
+  endaddeq.event.armoredcar.902005.c:0 "5w五级装甲车"
+
+  endaddeq.event.armoredcar.902006:0 "添加六级装甲车"
+  endaddeq.event.armoredcar.902006.t:0 "添加六级装甲车"
+  endaddeq.event.armoredcar.902006.d:0 "添加六级装甲车"
+
+  endaddeq.event.armoredcar.902006.a:0 "5000六级装甲车"
+  endaddeq.event.armoredcar.902006.b:0 "1w六级装甲车"
+  endaddeq.event.armoredcar.902006.c:0 "5w六级装甲车"
+
+  endaddeq.event.armoredcar.902007:0 "添加七级装甲车"
+  endaddeq.event.armoredcar.902007.t:0 "添加七级装甲车"
+  endaddeq.event.armoredcar.902007.d:0 "添加七级装甲车"
+
+  endaddeq.event.armoredcar.902007.a:0 "5000七级装甲车"
+  endaddeq.event.armoredcar.902007.b:0 "1w七级装甲车"
+  endaddeq.event.armoredcar.902007.c:0 "5w七级装甲车"
+
+  endaddeq.event.armoredcar.902008:0 "添加八级装甲车"
+  endaddeq.event.armoredcar.902008.t:0 "添加八级装甲车"
+  endaddeq.event.armoredcar.902008.d:0 "添加八级装甲车"
+
+  endaddeq.event.armoredcar.902008.a:0 "5000八级装甲车"
+  endaddeq.event.armoredcar.902008.b:0 "1w八级装甲车"
+  endaddeq.event.armoredcar.902008.c:0 "5w八级装甲车"
+
+  endaddeq.event.armoredcar.902009:0 "添加九级装甲车"
+  endaddeq.event.armoredcar.902009.t:0 "添加九级装甲车"
+  endaddeq.event.armoredcar.902009.d:0 "添加九级装甲车"
+
+  endaddeq.event.armoredcar.902009.a:0 "5000九级装甲车"
+  endaddeq.event.armoredcar.902009.b:0 "1w九级装甲车"
+  endaddeq.event.armoredcar.902009.c:0 "5w九级装甲车"
   
   #=====================陆军=====================#
 
@@ -285,9 +380,8 @@
 
   #防空及反坦
   
-
-  #海军
-  #运输船
+  #
+  #
   
 
 
