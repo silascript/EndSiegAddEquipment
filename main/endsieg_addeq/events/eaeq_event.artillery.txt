@@ -1,0 +1,712 @@
+add_namespace = endaddeq.event.artillery
+
+# 火炮
+
+# 零级火炮(牵引式火炮)
+country_event = {
+	id = endaddeq.event.artillery.912000
+	title = endaddeq.event.artillery.912000.t
+	desc = endaddeq.event.artillery.912000.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_aritllery_0 
+		}
+	}
+
+	# 添加5000零级火炮
+	option = {
+		name = endaddeq.event.artillery.912000.a 
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_0 
+			amount = 10000
+		}
+	}
+
+	# 添加1W零级火炮
+	option = {
+		name = endaddeq.event.artillery.912000.b
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_0
+			amount = 10000
+		}
+	}
+
+	# 添加5W零级火炮
+	option = {
+		name = endaddeq.event.artillery.912000.c
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_0
+			amount = 50000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 零级火炮(牵引式火炮) 
+
+# 一级火炮(改良型野战炮)
+country_event = {
+	id = endaddeq.event.artillery.912001
+	title = endaddeq.event.artillery.912001.t
+	desc = endaddeq.event.artillery.912001.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_aritllery_1 
+		}
+	}
+
+	# 添加5000一级火炮
+	option = {
+		name = endaddeq.event.artillery.912001.a 
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1 
+			amount = 10000
+		}
+	}
+
+	# 添加1W一级火炮
+	option = {
+		name = endaddeq.event.artillery.912001.b
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 10000
+		}
+	}
+
+	# 添加5W一级火炮
+	option = {
+		name = endaddeq.event.artillery.912001.c
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 50000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 一级火炮(改良型野战炮)
+
+# 二级火炮
+country_event = {
+	id = endaddeq.event.artillery.912002
+	title = endaddeq.event.artillery.912002.t
+	desc = endaddeq.event.artillery.912002.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_aritllery_2
+		}
+	}
+
+	# 添加5000二级火炮
+	option = {
+		name = endaddeq.event.artillery.912002.a 
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_2
+			amount = 10000
+		}
+	}
+
+	# 添加1W二级火炮
+	option = {
+		name = endaddeq.event.artillery.912002.b
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_2
+			amount = 10000
+		}
+	}
+
+	# 添加5W二级火炮
+	option = {
+		name = endaddeq.event.artillery.912002.c
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_2
+			amount = 50000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 二级火炮
+
+# 三级火炮
+country_event = {
+	id = endaddeq.event.artillery.912003
+	title = endaddeq.event.artillery.912003.t
+	desc = endaddeq.event.artillery.912003.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_aritllery_3
+		}
+	}
+
+	# 添加5000三级火炮
+	option = {
+		name = endaddeq.event.artillery.912003.a 
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_3
+			amount = 10000
+		}
+	}
+
+	# 添加1W三级火炮
+	option = {
+		name = endaddeq.event.artillery.912003.b
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_3
+			amount = 10000
+		}
+	}
+
+	# 添加5W三级火炮
+	option = {
+		name = endaddeq.event.artillery.912003.c
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_3
+			amount = 50000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 三级火炮
+
+# 四级火炮
+country_event = {
+	id = endaddeq.event.artillery.912004
+	title = endaddeq.event.artillery.912004.t
+	desc = endaddeq.event.artillery.912004.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_aritllery_4
+		}
+	}
+
+	# 添加5000四级火炮
+	option = {
+		name = endaddeq.event.artillery.912004.a 
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_4
+			amount = 10000
+		}
+	}
+
+	# 添加1W四级火炮
+	option = {
+		name = endaddeq.event.artillery.912004.b
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_4
+			amount = 10000
+		}
+	}
+
+	# 添加5W四级火炮
+	option = {
+		name = endaddeq.event.artillery.912004.c
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_4
+			amount = 50000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 四级火炮
+
+# 五级火炮
+country_event = {
+	id = endaddeq.event.artillery.912005
+	title = endaddeq.event.artillery.912005.t
+	desc = endaddeq.event.artillery.912005.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_aritllery_5
+		}
+	}
+
+	# 添加5000五级火炮
+	option = {
+		name = endaddeq.event.artillery.912005.a 
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_5
+			amount = 10000
+		}
+	}
+
+	# 添加1W五级火炮
+	option = {
+		name = endaddeq.event.artillery.912005.b
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_5
+			amount = 10000
+		}
+	}
+
+	# 添加5W五级火炮
+	option = {
+		name = endaddeq.event.artillery.912005.c
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_5
+			amount = 50000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 五级火炮
+
+# 六级火炮
+country_event = {
+	id = endaddeq.event.artillery.912006
+	title = endaddeq.event.artillery.912006.t
+	desc = endaddeq.event.artillery.912006.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_aritllery_6
+		}
+	}
+
+	# 添加5000六级火炮
+	option = {
+		name = endaddeq.event.artillery.912006.a 
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_6
+			amount = 10000
+		}
+	}
+
+	# 添加1W六级火炮
+	option = {
+		name = endaddeq.event.artillery.912006.b
+
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_6
+			amount = 10000
+		}
+	}
+
+	# 添加5W六级火炮
+	option = {
+		name = endaddeq.event.artillery.912006.c
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_6
+			amount = 50000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 六级火炮
+
+#==================超重火炮==================#
+
+# 早期铁道炮
+country_event = {
+	id = endaddeq.event.artillery.912101
+	title = endaddeq.event.artillery.912101.t
+	desc = endaddeq.event.artillery.912101.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_superartillery_1
+		}
+	}
+
+	# 添加1000早期铁道炮
+	option = {
+		name = endaddeq.event.artillery.912101.a 
+
+		add_equipment_to_stockpile = {
+			type = superartillery_equipment_1
+			amount = 1000
+		}
+	}
+
+	# 添加5000早期铁道炮
+	option = {
+		name = endaddeq.event.artillery.912101.b
+
+		add_equipment_to_stockpile = {
+			type = superartillery_equipment_1
+			amount = 5000
+		}
+	}
+
+	# 添加1W早期铁道炮
+	option = {
+		name = endaddeq.event.artillery.912101.c
+		add_equipment_to_stockpile = {
+			type = superartillery_equipment_1
+			amount = 10000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 早期铁道炮
+
+
+# 现代超重型火炮
+country_event = {
+	id = endaddeq.event.artillery.912102
+	title = endaddeq.event.artillery.912102.t
+	desc = endaddeq.event.artillery.912102.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_superartillery_2
+		}
+	}
+
+	# 添加1000现代超重型火炮
+	option = {
+		name = endaddeq.event.artillery.912102.a 
+
+		add_equipment_to_stockpile = {
+			type = superartillery_equipment_2
+			amount = 1000
+		}
+	}
+
+	# 添加5000现代超重型火炮
+	option = {
+		name = endaddeq.event.artillery.912102.b
+
+		add_equipment_to_stockpile = {
+			type = superartillery_equipment_2
+			amount = 5000
+		}
+	}
+
+	# 添加1W现代超重型火炮
+	option = {
+		name = endaddeq.event.artillery.912102.c
+		add_equipment_to_stockpile = {
+			type = superartillery_equipment_2
+			amount = 10000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 现代超重型火炮
+
+#==================火箭炮==================#
+
+# 火箭炮
+# 一级火箭炮
+country_event = {
+	id = endaddeq.event.artillery.912201
+	title = endaddeq.event.artillery.912201.t
+	desc = endaddeq.event.artillery.912201.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_rocket_artillery_1
+		}
+	}
+
+	# 添加1000一级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912201.a 
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_1
+			amount = 1000
+		}
+	}
+
+	# 添加5000一级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912201.b
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_1
+			amount = 5000
+		}
+	}
+
+	# 添加1W一级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912201.c
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_1
+			amount = 10000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 一级火箭炮
+
+# 二级火箭炮
+country_event = {
+	id = endaddeq.event.artillery.912202
+	title = endaddeq.event.artillery.912202.t
+	desc = endaddeq.event.artillery.912202.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_rocket_artillery_2
+		}
+	}
+
+	# 添加1000二级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912202.a 
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_2
+			amount = 1000
+		}
+	}
+
+	# 添加5000二级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912202.b
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_2
+			amount = 5000
+		}
+	}
+
+	# 添加1W二级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912202.c
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_2
+			amount = 10000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 二级火箭炮
+
+# 三级火箭炮
+country_event = {
+	id = endaddeq.event.artillery.912203
+	title = endaddeq.event.artillery.912203.t
+	desc = endaddeq.event.artillery.912203.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_rocket_artillery_3
+		}
+	}
+
+	# 添加1000三级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912203.a 
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_3
+			amount = 1000
+		}
+	}
+
+	# 添加5000三级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912203.b
+
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_3
+			amount = 5000
+		}
+	}
+
+	# 添加1W三级火箭炮
+	option = {
+		name = endaddeq.event.artillery.912203.c
+		add_equipment_to_stockpile = {
+			type = rocket_artillery_equipment_3
+			amount = 10000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 三级火箭炮
+
+# 一级自行火箭炮
+country_event = {
+	id = endaddeq.event.artillery.912211
+	title = endaddeq.event.artillery.912211.t
+	desc = endaddeq.event.artillery.912211.d
+
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = eaeq_motorized_rocket_1
+		}
+	}
+
+	# 添加1000一级自行火箭炮
+	option = {
+		name = endaddeq.event.artillery.912211.a 
+
+		add_equipment_to_stockpile = {
+			type = motorized_rocket_equipment_1
+			amount = 1000
+		}
+	}
+
+	# 添加5000一级自行火箭炮
+	option = {
+		name = endaddeq.event.artillery.912211.b
+
+		add_equipment_to_stockpile = {
+			type = motorized_rocket_equipment_1
+			amount = 5000
+		}
+	}
+
+	# 添加1W一级自行火箭炮
+	option = {
+		name = endaddeq.event.artillery.912211.c
+		add_equipment_to_stockpile = {
+			type = motorized_rocket_equipment_1
+			amount = 10000
+		}
+	}
+
+	#关闭
+	option = {
+		name = endaddeq.event.common.b
+	}
+
+} # 一级自行火箭炮
+
