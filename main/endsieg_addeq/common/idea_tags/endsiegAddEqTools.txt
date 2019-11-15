@@ -11,6 +11,9 @@ idea_categories = {
 		# 装甲车
 		slot = eaeq_armored_car_ideas
 
+		# 火炮火箭炮
+		slot = eaeq_artillery_ideas
+
 		cost = 0
 		removal_cost = 0
 

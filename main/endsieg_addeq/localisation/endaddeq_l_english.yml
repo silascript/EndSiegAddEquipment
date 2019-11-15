@@ -15,10 +15,10 @@
   # 陆军及通用装备
   eaeq_common_ideas:0 "添加通用装备"
   eaeq_infantry_ideas:0 "添加步兵装备"
-  eaeq_armored_car_Ideas:0 "添加装甲车"
+  eaeq_armored_car_ideas:0 "添加装甲车"
 
-  # 炮
-  eaeq_artillery_ideas:0 "添加炮"
+  # 火炮火箭炮
+  eaeq_artillery_ideas:0 "添加火炮火箭炮"
 
   
   # 坦克
