@@ -279,4 +279,123 @@ ideas = {
 
 	} # eaeq_armored_car_ideas
 
+
+	# 火炮
+	# artillery_equipment_0:0 "牵引式大炮 I"
+	# artillery_equipment_1:0 "改良型野战炮 I"
+	# anti_air_equipment_0:0 "早期防空装备"
+	# superartillery_equipment_1:0 "早期铁道炮"
+	# superartillery_equipment_2:0 "现代超重型火炮"
+	eaeq_artillery_ideas = {
+
+		# artillery_equipment_ (0~6)
+
+		# 零级火炮 牵引式大炮
+		eaeq_aritllery_0 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912000
+			}
+		} # 零级火炮 牵引式大炮
+
+		# 一级火炮 改良型野战炮
+		eaeq_aritllery_1 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912001
+			}
+		} # 一级火炮 改良型野战炮
+
+
+		# 二级火炮
+		eaeq_aritllery_2 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912002
+			}
+		} # 二级火炮
+
+		# 三级火炮
+		eaeq_aritllery_3 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912003
+			}
+		} # 三级火炮
+
+		# 四级火炮
+		eaeq_aritllery_4 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912004
+			}
+		} # 四级火炮
+
+
+		# 五级火炮
+		eaeq_aritllery_5 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912005
+			}
+		} # 五级火炮
+
+
+		# 六级火炮
+		eaeq_aritllery_6 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912006
+			}
+		} # 六级火炮
+
+		# 早期铁道炮
+		eaeq_superartillery_1 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912101
+			}
+		} # 早期铁道炮
+
+
+		# 现代超重型火炮
+		eaeq_superartillery_2 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912102
+			}
+		} # 现代超重型火炮
+
+
+		# 火箭炮
+		# rocket_artillery_equipment_ (1~3)
+		
+		# 一级火箭炮
+		eaeq_rocket_artillery_1 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912201
+			}
+		} # 一级火箭炮
+
+
+		# 二级火箭炮
+		eaeq_rocket_artillery_2 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912202
+			}
+		} # 二级火箭炮
+
+
+		# 三级火箭炮
+		eaeq_rocket_artillery_3 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912203
+			}
+		} # 三级火箭炮
+
+
+		# 自行火箭炮
+		# motorized_rocket_equipment_ (只有1)
+		
+		# 一级自行火箭炮
+		eaeq_motorized_rocket_1 = {
+			on_add = {
+				country_event = endaddeq.event.artillery.912211
+			}
+		} # 一级自行火箭炮
+
+	} # 火炮
+
+
 } # ideas
